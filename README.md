@@ -20,15 +20,15 @@ Due to the lack of time, the repository does not support the following scenarios
 It contains CLIP embeddings of the images in the dataset.
 
 ## How to run
-1) Make sure you have conda installed.
-2) Create a new environment and install all the packages there automatically:
+1) Create your environment with conda or venv. Here is an example of how to do it with conda:
 ```bash
-    conda create --name aifs_env --file environment_freeze.txt
+    conda create --name aifs_env python=3.11
 ```
-3) Activate the environment:
+2) Install the packages there from `requirements.txt`:
 ```bash
     conda activate aifs_env
+    pip install -r requirements.txt
 ```
-4) Run the notebook `notebook.ipynb` in the root directory of the repository (using the same envitonment).
-5) Set the path to the dataset and your api key there.
-6) Run everything in the notebook. 
+3) Run the notebook `notebook.ipynb` in the root directory of the repository (using the same envitonment).
+4) Set the path to the dataset and your api key there.
+5) Run everything in the notebook. 
